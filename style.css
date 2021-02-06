@@ -12,8 +12,8 @@ body {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  background-color: #333;
-  color: #fff;
+  background-color: #3c341f;
+  color: #daddd8;
   line-height: 1.7;
 }
 
@@ -45,12 +45,14 @@ body {
 
 .slide h2 {
   font-size: 2.5rem;
+  font-weight: 600;
   /* margin-bottom: 0.2rem; */
 }
 
 .slide h3 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
+  font-weight: 400;
 }
 
 .slide h4 {
@@ -58,11 +60,16 @@ body {
 }
 
 .btn {
-  background-color: #444;
-  color: #fff;
+  color: #111;
   text-decoration: none;
   padding: 1rem 1.5rem;
   /*       top  sides  */
+  border-radius: 1rem;
+  background-color: #daddd8;
+}
+
+.btn:hover {
+  transform: scale(1.1);
 }
 
 .grabbing {
